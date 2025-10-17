@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="id">
-<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/><title>Ular Tangga Edukatif - Apipudin</title><link rel="icon" href="assets/img/favicon.png"><link rel="stylesheet" href="style.css"></head>
+<head><link rel="manifest" href="manifest.json">
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js');
+  }
+</script>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/><title>Ular Tangga Edukatif - Apipudin</title><link rel="icon" href="assets/img/favicon.png"><link rel="stylesheet" href="style.css"></head>
 <body>
 <div id="loaderOverlay"><div class="loader-card"><div class="spinner"></div><div class="loader-text">Memuat Ular Tangga Edukatif... Mohon tunggu</div></div></div>
 <div id="splash" class="hidden" role="main"><h1>🐍 Ular Tangga Edukatif</h1><p>👨‍🏫 Karya: Apipudin – SDN NAGREG 05</p><div id="creator-note">Gunakan tombol Unggah Soal jika ingin memakai soal sendiri.</div><div class="splash-actions"><button id="settingsBtn" aria-label="Pengaturan">⚙️</button><button id="startBtn" class="primary">▶ Mulai Permainan</button></div></div>
