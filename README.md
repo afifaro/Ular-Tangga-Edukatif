@@ -1,1 +1,4 @@
-Ular Tangga Edukatif — Fix Loading (Kosong Default)\n\nUnggah soal via menu ⚙️ -> Unggah Soal Sendiri. Replace lib/xlsx.full.min.js if needed.
+Ular Tangga Edukatif - Final
+
+Versi ini berisi music lembut riang, upload soal, dan perbaikan loading.
+Unggah soal via menu ⚙️ -> Unggah Soal Sendiri (.xlsx). Replace lib/xlsx.full.min.js with full SheetJS for offline parsing.
